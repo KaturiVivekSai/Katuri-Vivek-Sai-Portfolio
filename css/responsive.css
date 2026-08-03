@@ -1,0 +1,79 @@
+
+/*====================================
+LAPTOP
+====================================*/
+
+@media (max-width:1200px){
+
+.container{
+    width:95%;
+}
+
+.hero-left h1{
+    font-size:60px;
+}
+
+.hero-card{
+    width:340px;
+    height:340px;
+}
+
+.stack-grid{
+    grid-template-columns:repeat(4,1fr);
+}
+
+.project-grid,
+.achievement-grid,
+.cert-grid{
+    grid-template-columns:repeat(2,1fr);
+}
+
+}
+
+/*====================================
+SMALL MOBILE
+====================================*/
+
+@media (max-width:576px){
+
+.hero-left h1{
+    font-size:36px;
+}
+
+.hero-left h2{
+    font-size:22px;
+}
+
+.hero-card{
+    width:240px;
+    height:240px;
+}
+
+.circle{
+    width:90px;
+    height:90px;
+    font-size:28px;
+}
+
+.stack-grid{
+    grid-template-columns:1fr;
+}
+
+.project-grid,
+.achievement-grid,
+.cert-grid{
+    grid-template-columns:1fr;
+}
+
+.contact-info,
+.contact-form,
+.timeline-card,
+.detail-card{
+    padding:25px;
+}
+
+.section-title h2{
+    font-size:32px;
+}
+
+}
