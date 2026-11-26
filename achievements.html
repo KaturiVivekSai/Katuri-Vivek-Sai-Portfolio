@@ -1,337 +1,264 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <title>Achievements | Vivek Sai Katuri</title>
 
-<meta name="description" content="Software Engineer specializing in Full Stack Development, Data Science and Machine Learning.">
-
-<meta name="keywords" content="Vivek Sai Katuri, Software Engineer, Full Stack Developer, Data Science, Java, Python">
-
+<meta name="description" content="Academic honors, hackathon prizes, coding milestones, and recognition earned by Vivek Sai Katuri.">
+<meta name="keywords" content="Vivek Sai Katuri, Achievements, Hackathon Prize, Academic Rank, LeetCode, HackerRank">
 <meta name="author" content="Vivek Sai Katuri">
 
-<meta property="og:title" content="Vivek Sai Katuri | Software Engineer">
-
-<meta property="og:description" content="Portfolio of Vivek Sai Katuri">
-
-<meta property="og:image" content="assets/images/preview.png">
-
-<meta property="og:type" content="website">
-
-<meta property="og:url" content="https://your-domain.vercel.app">
-
-<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" type="image/png" href="assets/icons/favicon.png">
+<link rel="shortcut icon" href="assets/icons/favicon.png">
 
 <link rel="stylesheet" href="css/style.css">
 <link rel="stylesheet" href="css/responsive.css">
-
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@4.4.0/fonts/remixicon.css">
-
 </head>
-
 
 <body>
 
-
+<div class="cursor"></div>
 <div class="bg-grid"></div>
-
 <div class="gradient gradient1"></div>
 <div class="gradient gradient2"></div>
 
-
-
 <header>
-
 <div class="container nav-container">
 
-<a href="index.html" class="logo">
-<span>V</span>S
-</a>
-
+<a href="index.html" class="logo"><span>V</span>S</a>
 
 <nav>
-
 <ul class="nav-links">
-
 <li><a href="index.html">Home</a></li>
-
-<li><a href="about.html">Skills</a></li>
-
+<li><a href="about.html">About</a></li>
+<li><a href="skills.html">Skills</a></li>
 <li><a href="projects.html">Projects</a></li>
-
 <li><a href="experience.html">Experience</a></li>
-
 <li><a href="education.html">Education</a></li>
-
-<li><a href="achievements.html">Achievements</a></li>
-
+<li><a href="achievements.html" class="active">Achievements</a></li>
 <li><a href="certifications.html">Certifications</a></li>
-
 <li><a href="contact.html">Contact</a></li>
-
 </ul>
-
 </nav>
 
 <div class="nav-right">
-
-<a href="assets/resume.pdf" target="_blank" download class="resume-btn">
-
-<i class="ri-download-line"></i>
-
-Resume
-
+<a href="assets/resume/Vivek_Sai_Katuri_Resume.pdf" target="_blank" rel="noopener noreferrer" download class="resume-btn">
+<i class="ri-download-line"></i> Resume
 </a>
-
-<button class="menu-btn">
-
-<i class="ri-menu-4-line"></i>
-
+<button class="menu-btn" aria-label="Toggle Menu">
+<i class="ri-menu-line"></i>
 </button>
-
 </div>
 
-
 </div>
-
 </header>
 
-
-
-
-
+<main>
 <section class="skills">
-
-
 <div class="container">
 
-
 <div class="section-title">
-
-<p>
-RECOGNITION
+<p>RECOGNITION &amp; MILESTONES</p>
+<h2>Achievements &amp; Prizes</h2>
+<p class="section-subtitle">
+Academic rankings, hackathon prizes, competitive coding milestones, and supporting certificates.
 </p>
-
-<h2>
-Achievements
-</h2>
-
 </div>
 
+<div class="achievement-highlights">
+<div class="highlight-box">
+<strong>Rank 1</strong>
+<span>Diploma (96.49%)</span>
+</div>
+<div class="highlight-box">
+<strong>Rank 2</strong>
+<span>B.Tech 2-2 (9.71 SGPA)</span>
+</div>
+<div class="highlight-box">
+<strong>3rd Prize</strong>
+<span>IIC Hackathon</span>
+</div>
+<div class="highlight-box">
+<strong>Silver + 50+</strong>
+<span>HackerRank &amp; LeetCode</span>
+</div>
+</div>
 
+<div class="filter-tabs" id="achievements-filter">
+<button type="button" class="filter-tab active" data-filter="all">All</button>
+<button type="button" class="filter-tab" data-filter="academic">Academic</button>
+<button type="button" class="filter-tab" data-filter="hackathon">Hackathons &amp; Prizes</button>
+<button type="button" class="filter-tab" data-filter="coding">Coding Platforms</button>
+</div>
 
+<div class="achievements-page-grid">
 
-<div class="achievement-grid">
-
-
-
-<div class="achievement-card">
-
-
-<div class="achievement-icon">
-
+<!-- Achievement 1 -->
+<article class="ach-card" data-category="academic" style="--ach-accent:#fbbf24;">
+<div>
+<div class="ach-card-top">
+<div class="ach-icon">
 <i class="ri-medal-line"></i>
-
 </div>
-
-
-<h3>
-Diploma College Rank 1
-</h3>
-
-
+<div class="ach-badges">
+<span class="ach-category">Academic</span>
+<span class="ach-prize-badge"><i class="ri-vip-crown-line"></i> College Rank 1</span>
+</div>
+</div>
+<h3>Diploma Computer Engineering Topper</h3>
 <p>
-
-Secured first rank in Diploma Computer Engineering with 96.49% academic performance.
-
+Secured first rank in Diploma Computer Engineering at Dhanekula Institute of Engineering and Technology with <strong>96.49%</strong> overall academic performance.
 </p>
+</div>
+<div class="ach-footer">
+<span class="ach-meta-note"><i class="ri-award-line"></i> Prize: Merit Distinction &amp; Topper Honor</span>
+<!-- To attach a certificate image/PDF later, replace the span below with:
+<div class="ach-attachment-actions">
+  <button type="button" class="cert-btn cert-btn-view" data-modal-img="assets/achievements/diploma-rank1.png" data-modal-title="Diploma Rank 1 Certificate" data-modal-pdf="assets/achievements/diploma-rank1.pdf">
+    <i class="ri-eye-line"></i> Certificate
+  </button>
+</div>
+-->
+</div>
+</article>
 
-
-</div><br>
-
-
-
-
-
-<div class="achievement-card">
-
-
-<div class="achievement-icon">
-
+<!-- Achievement 2 -->
+<article class="ach-card" data-category="academic" style="--ach-accent:#60a5fa;">
+<div>
+<div class="ach-card-top">
+<div class="ach-icon">
 <i class="ri-award-line"></i>
-
 </div>
-
-
-<h3>
-B.Tech Academic Performance
-</h3>
-
-
+<div class="ach-badges">
+<span class="ach-category">Academic</span>
+<span class="ach-prize-badge"><i class="ri-star-smile-line"></i> College Rank 2</span>
+</div>
+</div>
+<h3>B.Tech Academic Excellence</h3>
 <p>
-
-Achieved College Rank 2 in B.Tech 2nd Year 2nd Semester with SGPA 9.71.
-
+Achieved <strong>College Rank 2</strong> in B.Tech 2nd Year 2nd Semester at PVPSIT with an <strong>SGPA of 9.71</strong> and maintaining a 9.51 CGPA.
 </p>
+</div>
+<div class="ach-footer">
+<span class="ach-meta-note"><i class="ri-graduation-cap-line"></i> Prize / Honor: Semester Rank 2</span>
+</div>
+</article>
 
-
-</div><br>
-
-<div class="achievement-card">
-
-
-<div class="achievement-icon">
-
+<!-- Achievement 3 -->
+<article class="ach-card" data-category="hackathon" style="--ach-accent:#f59e0b;">
+<div>
+<div class="ach-card-top">
+<div class="ach-icon">
 <i class="ri-trophy-line"></i>
-
 </div>
-
-
-<h3>
-IIC Hackathon - 3rd Prize
-</h3>
-
-
+<div class="ach-badges">
+<span class="ach-category">Hackathon</span>
+<span class="ach-prize-badge"><i class="ri-trophy-fill"></i> 3rd Prize</span>
+</div>
+</div>
+<h3>IIC Hackathon – 3rd Prize Winner</h3>
 <p>
-
-Secured 3rd prize at Institute Innovation Council Hackathon for developing Health Vault, a healthcare management solution.
-
+Secured <strong>3rd Prize</strong> at the Institute Innovation Council (IIC) Hackathon for designing and building <strong>Health Vault</strong>, a digital healthcare management solution.
 </p>
+</div>
+<div class="ach-footer">
+<span class="ach-meta-note"><i class="ri-gift-line"></i> Prize: 3rd Place Award &amp; Certificate</span>
+<!-- To attach your IIC Hackathon certificate image/PDF:
+Save image to assets/achievements/iic-hackathon.png (and optional .pdf), then uncomment:
+<div class="ach-attachment-actions">
+  <button type="button" class="cert-btn cert-btn-view" data-modal-img="assets/achievements/iic-hackathon.png" data-modal-title="IIC Hackathon – 3rd Prize" data-modal-pdf="assets/achievements/iic-hackathon.pdf">
+    <i class="ri-eye-line"></i> View Certificate
+  </button>
+</div>
+-->
+</div>
+</article>
 
-
-</div><br>
-
-<div class="achievement-card">
-
-
-<div class="achievement-icon">
-
+<!-- Achievement 4 -->
+<article class="ach-card" data-category="coding" style="--ach-accent:#10b981;">
+<div>
+<div class="ach-card-top">
+<div class="ach-icon">
 <i class="ri-code-line"></i>
-
 </div>
-
-
-<h3>
-LeetCode Achievement
-</h3>
-
-
+<div class="ach-badges">
+<span class="ach-category">Coding</span>
+<span class="ach-prize-badge"><i class="ri-fire-line"></i> 50+ Problems</span>
+</div>
+</div>
+<h3>LeetCode Algorithmic Problem Solving</h3>
 <p>
-
-Solved 50+ programming problems focused on data structures and algorithmic problem solving.
-
+Solved 50+ programming challenges on LeetCode focused on data structures, arrays, strings, recursion, and algorithmic problem solving.
 </p>
+</div>
+<div class="ach-footer">
+<span class="ach-meta-note"><i class="ri-terminal-line"></i> Focus: Data Structures &amp; Algorithms</span>
+</div>
+</article>
 
-
-</div><br>
-
-<div class="achievement-card">
-
-
-<div class="achievement-icon">
-
+<!-- Achievement 5 -->
+<article class="ach-card" data-category="coding" style="--ach-accent:#94a3b8;">
+<div>
+<div class="ach-card-top">
+<div class="ach-icon">
 <i class="ri-terminal-box-line"></i>
-
 </div>
-
-
-<h3>
-HackerRank Silver Badge
-</h3>
-
-
+<div class="ach-badges">
+<span class="ach-category">Coding</span>
+<span class="ach-prize-badge"><i class="ri-shield-star-line"></i> Silver Badge</span>
+</div>
+</div>
+<h3>HackerRank Silver Badge</h3>
 <p>
-
-Earned Silver Badge through consistent practice in programming challenges.
-
+Earned the Silver Badge on HackerRank through consistent problem-solving practice across core programming challenges and SQL/coding tracks.
 </p>
+</div>
+<div class="ach-footer">
+<span class="ach-meta-note"><i class="ri-verified-badge-line"></i> Recognition: Silver Proficiency Badge</span>
+</div>
+</article>
 
-
-</div><br>
+<!--
+=========================================================
+HOW TO ADD A NEW ACHIEVEMENT WITH PRIZE & CERTIFICATE:
+Copy one <article class="ach-card"> block above, change data-category
+("academic", "hackathon", or "coding"), update the title, prize badge,
+and add your image/PDF inside .ach-footer using data-modal-img & data-modal-pdf!
+=========================================================
+-->
 
 </div>
-
-
 </div>
-
-
 </section>
+</main>
 
 <footer>
-
-
 <div class="container footer-container">
-
-
-<div>
-
-<h3>
-Vivek Sai Katuri
-</h3>
-
-<p>
-Software Engineer
-</p>
-
+<div class="footer-brand">
+<h3>Vivek Sai Katuri</h3>
 </div>
 
-
-
-<div>
-
-<a href="projects.html">
-Projects
-</a>
-
-<a href="contact.html">
-Contact
-</a>
-
-</div>
-
-<div>
-
-<a href="https://github.com/KaturiVivekSai" target="_blank">
-
+<div class="footer-socials">
+<a href="https://github.com/KaturiVivekSai" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
 <i class="ri-github-fill"></i>
-
 </a>
-
-<a href="https://www.linkedin.com/in/vivek-sai-katuri-3129bb2b1/" target="_blank">
-
+<a href="https://www.linkedin.com/in/vivek-sai-katuri-3129bb2b1/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
 <i class="ri-linkedin-box-fill"></i>
-
 </a>
-
-<a href="mailto:katuriviveksai@gmail.com">
-
+<a href="https://mail.google.com/mail/?view=cm&fs=1&to=katuriviveksai@gmail.com" target="_blank" rel="noopener noreferrer" aria-label="Email via Gmail">
 <i class="ri-mail-fill"></i>
-
 </a>
-
 </div>
-
-
 </div>
 
 <p class="copyright">
-
-© 2026 Vivek Sai Katuri.
-
+© 2026 Vivek Sai Katuri. All Rights Reserved.
 </p>
-
-
 </footer>
 
-
-
 <script src="js/main.js"></script>
-
-
 </body>
-
 </html>
