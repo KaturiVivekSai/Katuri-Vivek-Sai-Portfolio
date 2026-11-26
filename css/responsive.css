@@ -139,7 +139,8 @@ MOBILE
         grid-template-columns:repeat(2,1fr);
     }
 
-    .project-grid{
+    .project-grid,
+    .projects-page-grid{
         grid-template-columns:1fr;
     }
 
@@ -175,7 +176,8 @@ SMALL MOBILE
         font-size:12px;
     }
 
-    .cert-card{
+    .cert-card,
+    .timeline-cert-box{
         flex-direction:column-reverse;
         align-items:flex-start;
     }

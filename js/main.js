@@ -56,7 +56,8 @@ ACTIVE NAV LINK BY CURRENT PAGE
     const projectDetailPages = [
         "stock market.html",
         "smart campus navigator.html",
-        "student management system.html"
+        "student management system.html",
+        "waymate.html"
     ];
     const currentPage = projectDetailPages.includes(rawPage) ? "projects.html" : (rawPage || "index.html");
 
