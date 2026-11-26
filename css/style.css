@@ -177,11 +177,32 @@ header.scrolled{
 }
 
 .logo{
-    font-size:28px;
+    display:flex;
+    align-items:center;
+    gap:10px;
+    font-size:26px;
     font-weight:800;
     font-family:"Space Grotesk",sans-serif;
     letter-spacing:-0.5px;
     flex-shrink:0;
+    transition:.25s ease;
+}
+
+.logo-img{
+    width:38px;
+    height:38px;
+    border-radius:50%;
+    object-fit:cover;
+    border:1.5px solid rgba(59,130,246,.5);
+    box-shadow:0 0 14px rgba(59,130,246,.35);
+    display:inline-block;
+    vertical-align:middle;
+    transition:transform .3s ease, border-color .3s ease;
+}
+
+.logo:hover .logo-img{
+    transform:rotate(12deg) scale(1.08);
+    border-color:#60a5fa;
 }
 
 .logo span{
